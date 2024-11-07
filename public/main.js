@@ -1,6 +1,6 @@
 // Set up the Matter.js engine and renderer
 const { Engine, Render, Runner, World, Bodies, Events, Mouse, Body, MouseConstraint, Composite } = Matter;
-const socket = io('http://localhost:5050');
+const socket = io('http://200.58.103.58:5050');
 
 const engine = Engine.create();
 const { world } = engine;
