@@ -57,7 +57,7 @@ canvas {
 #roomCode{
     position: absolute;
     z-index: 1000;
-    right: 130px;
+    left: 520px;
     top: 6px;
     color: rgb(109, 237, 255);
     font-size: 25px;
