@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: black;
+}
+
+canvas {
+    display: block;
+}
+
+#ballCount {
+    position: absolute;
+    left: 28px;
+    top: 100px;
+    color: #bbff00;
+    font-size: 40px;
+    font-family: Arial;
+    z-index: 2;
+    pointer-events: none;
+
+}
+
+#reference{
+    position: absolute;
+    z-index: -150;
+    pointer-events: none;
+
+}
+#hud{
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+
+}
+#pointer{
+    position: absolute;
+    z-index: 0;
+    pointer-events: none;
+
+}
+#pointer_border{
+    position: absolute;
+    z-index: -1;
+    left: 325px;
+    top: 40px;
+    pointer-events: none;
+
+}
+#background{
+    position: absolute;
+    z-index: -100;
+    left: 50px;
+    top: 50px;
+    pointer-events: none;
+}
+#roomCode{
+    position: absolute;
+    z-index: 1000;
+    right: 130px;
+    top: 6px;
+    color: rgb(109, 237, 255);
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: bold;
+    z-index: 200;
+    background: transparent;
+    border: none;
+    width: 150px;
+}
